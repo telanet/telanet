@@ -23,21 +23,31 @@ input:valid {
 }
 
 #header {
+    padding: 0.5em 2em;
   display: flex;
   justify-content: space-between;
   position: sticky;
+  text-align: center;
   
 }
 
+#header h1 {
+    margin: 0;
+    margin-bottom: 2em;
+    align-items: flex-start;
+}
+
 #header img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 80px;
 }
 
 #nav-bar {
+    padding-top: 0.5em;
   width: 50%;
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
 #nav-bar a {
@@ -47,4 +57,43 @@ input:valid {
 
 #main {
     text-align: center;
+}
+
+.benefit {
+
+    padding: 2em 5em;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    
+}
+
+.benefit img {
+    width: 100px;
+    height: 100px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 25%;
+    margin: 5em 2em;
+    border: 1px solid black;
+}
+
+.card div {
+    padding: 1em 0;
+    background-color: rgb(184, 100, 100);
+}
+
+
+button {
+    border: none;
+    background-color: yellowgreen;
+    font-size: 1em;
+    padding: 0.5em 2em;
 }
