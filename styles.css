@@ -1,4 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(225, 222, 222);
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  
+}
+
+#header img {
+  width: 200px;
+  height: 200px;
+}
+
+#nav-bar {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: rgb(157, 134, 134);
+}
+
+#main {
+    text-align: center;
 }

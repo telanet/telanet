@@ -8,39 +8,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <script>
-      function ValidateEmail(email) {
-        if (
-          /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
-            myForm.emailAddr.value
-          )
-        ) {
-          return true;
-        }
-        alert("You have entered an invalid email address!");
-        return false;
-      }
-    </script>
+   
     <header id="header">
-      <img src="" alt="" id="header-img" />
+      <img src="comhiclipartbyala.jpg" alt="" id="header-img" />
+      <h1>Original Trombones</h1>
       <nav id="nav-bar">
-        <a href="#header" class="nav-link"></a>
-        <a href="#main" class="nav-link"></a>
-        <a href="#footer" class="nav-link"></a>
+        <a href="#header" class="nav-link">Features</a>
+        <a href="#main" class="nav-link">How it Works</a>
+        <a href="#footer" class="nav-link">Pricing</a>
       </nav>
     </header>
     <main id="main">
-      <video src="" id="video"></video>
+        <h1>Handcrafted, home-made masterpieces</h1>
+      
       <form action="GET" name="form" id="form">
-        <label for="email"></label>
-        <input type="text" name="text" id="email" placeholder="email" />
+        <label for="email">Enter your email -> </label>
+        <input type="text" name="text" id="email" placeholder="email" required/>
         <input
           type="submit"
           name="submit"
           value="Submit"
-          onclick="ValidateEmail(document.form.text)"
         />
       </form>
+
+      <video src="" id="video"></video>
     </main>
     <footer id="footer"></footer>
   </body>
