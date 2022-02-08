@@ -6,7 +6,7 @@
 
 - 🔭  I’m a current student at Microverse and developing projects with developers from all over the globe.
 - 👯  I’m looking forward to collaborate on HTML,CSS,JavaScript and React Projects.
-- 💬  Was a teacher of teacher of physics and chemistry before joining Microverse.
+- 💬  Was a teacher of physics and chemistry before joining Microverse.
 
 ### 🛠 &nbsp; Tech Stack  
 <br>
